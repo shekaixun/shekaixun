@@ -1,0 +1,325 @@
+@media screen only (min-width: 1604px) {
+	#prwidth: 100%;
+	    height: 590px;
+	    padding: 0;
+	    position: absolute;
+   		bottom: 14%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	#pandect-box b{
+		font-size:2.3em;
+		padding-left: 22%;
+	}
+	
+	#pandect-box span{
+		display: inline-block;
+	    padding-left: 29%;
+	    margin: 3% auto;
+	    color: #6A6A6A;
+	    font-size: 1.5em;
+	}
+	#pandect-box a{
+		color: #ffffff;
+	    background-color: #2d96cd;
+	    padding: 0.8% 5%;
+	    font-size: 1.5em;
+	    margin: 19% 38%;
+	}
+	#preference-box1 div:first-child h1{
+		color: #ffffff;
+	    font-size: 2em;
+	    font-weight: bold;
+	}
+	#preference-box1 div:first-child i{
+		display: block;
+	    width: 51px;
+	    height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -612px 0px;
+	    margin: 5% 34%;
+	}
+	#preference-box1 div:first-child span{
+		color: #ffffff;
+	    display: inline-block;
+	    margin-left: 12%;
+	    font-size: 1.2em;
+	    font-weight: bold;
+	}
+	#search-box select{
+		width: 100%;
+	    height: 40px;
+	    padding: 0;
+	    position: relative;
+	    left: 53%
+	}
+	#search-box p{
+		height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -56px -769px;
+	    margin: 5% 1%;
+	    position: relative;
+	    left: -60%;
+	}
+	#search-box span{
+		display: block;
+	    font-size: 1.4em;
+	    text-align: center;
+	    padding-left: 18%;
+	}
+	#search-box button{
+		display: block;
+	    width: 100%;
+	    height: 100%;
+	    font-size: 2em;
+	    background-color: #2d96cd;
+	    border-radius: 5px;
+	    color: #ffffff;
+	    position: relative;
+	    left: 12%;
+	}
+	
+	#preference-box2{
+		width: 100%;
+	    height: 249px;
+	    padding: 0;
+	    position: absolute;
+	    bottom: 8%;
+	}
+	#myCarousel1 .a-box1{
+		position: absolute;
+	    left: 123%;
+	    top: 56px;
+	}
+	#preference-box2 span{
+		display: block;
+	    width: 51px;
+	    height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -740px 0px;
+	    position: absolute;
+	    bottom: 23%;
+	    left: 3%;
+	}
+	#newcar-box #ford-red h2{
+		position: absolute;
+	    bottom: 45%;
+	    left: 24%;
+	    font-size: 2.6em;
+	    color: #FFFFFF;
+	}
+	#newcar-box #ford-red button{
+		position: absolute;
+	    bottom: 30%;
+	    left: 38%;
+	    color: #FFFFFF;
+	    background-color: #2D96CD;
+	    font-size: 1.3em;
+	    padding: .3% 2.5%;
+	    border: none;
+	}
+	    
+}
+/*手机端样式*/
+@media screen and (min-width: 1px) and (max-width: 480px) {
+	#pandect-box b{
+		font-size:1.4em;
+		padding-left: 22%;
+	}
+	
+	#pandect-box span{
+		display: inline-block;
+	    padding-left: 29%;
+	    margin: 2% auto;
+	    color: #6A6A6A;
+	    font-size: 1em;
+	}
+	#pandect-box a{
+		background-color: #2d96cd;
+	    padding: 0.8% 5%;
+	    font-size: 0.5em;
+	    margin: 13% 38%;
+	    border: none;
+	    display: inline-block;
+	    background: transparent;
+	    color: #2d96cd;
+	    position: absolute;
+	    top: 18px;
+	}
+	#preference-box1 div:first-child h1{
+		color: #ffffff;
+	    font-size: 2em;
+	    font-weight: bold;
+	}
+	#preference-box1{
+		position: relative;
+	    left: 0%;
+	    bottom: 0%;
+	    padding: 0;
+	    margin: 9% 0% 1% 0;
+	}
+	#preference-box1 div:first-child i{
+		display: block;
+	    width: 51px;
+	    height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -612px 0px;
+	    margin: 5% 34%;
+	}
+	#preference-box1 div:first-child span{
+		color: #ffffff;
+	    display: inline-block;
+	    margin-left: 12%;
+	    font-size: 1.2em;
+	    font-weight: bold;
+	}
+	#search-box select{
+		width: 100%;
+	    height: 40px;
+	    padding: 0;
+	    position: relative;
+	    left: 53%
+	}
+	#search-box p{
+		height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -56px -769px;
+	    margin: 5% 1%;
+	    position: relative;
+	    left: -60%;
+	}
+	#search-box span{
+		display: block;
+	    font-size: 1.4em;
+	    text-align: center;
+	    padding-left: 18%;
+	}
+	#search-box button{
+		display: block;
+	    width: 100%;
+	    height: 100%;
+	    font-size: 2em;
+	    background-color: #2d96cd;
+	    border-radius: 5px;
+	    color: #ffffff;
+	    position: relative;
+	    left: 12%;
+	}
+	
+	#preference-box2{
+		width: 100%;
+	    height: 259px;
+	    padding: 0;
+	    position: absolute;
+	    bottom: -7%;
+	}
+	#myCarousel1 .a-box1{
+		position: absolute;
+	    left: 114%;
+	    top: 3px;
+	}
+	#preference-box2 p{
+		 text-align: center;
+	    font-size: 1.6em;
+	    position: absolute;
+	    bottom: 6%;
+	    left: 25%;
+	}
+	#preference-box2 ul{
+		display: none;
+	}
+	#preference-box2 span{
+		display: block;
+	    width: 51px;
+	    height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -740px 0px;
+	    position: absolute;
+	    bottom: 9%;
+	    left: 3%;
+	    z-index: 50;
+	}
+	#carousel-box1{
+		width:100%;
+		position: relative;
+    	left: -20%;
+    	margin: 7% 0;
+	}
+	#myCarousel1{
+		width:100%;
+	}
+	#newcar-box #ford-red h2{
+		bottom: 48%;
+	    left: 24%;
+	    font-size: 1.6em;
+	    color: #FFFFFF;
+	}
+	#newcar-box #ford-red button{
+	    position: absolute;
+	    bottom: 32%;
+	    left: 38%;
+	    color: #FFFFFF;
+	    background-color: #2D96CD;
+	    font-size: 1em;
+	    padding: .3% 2.5%;
+	    border: none;
+	}
+	#preference-box1 div:first-child h1{
+		color: #ffffff;
+	    font-size: 1.3em;
+	    font-weight: bold;
+	    position: relative;
+	    left: -3%;
+	}
+	#preference-box1 div:first-child span{
+		display: none;
+	}
+	#preference-box1 div:first-child i{
+		display: block;
+	    width: 51px;
+	    height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -612px 0px;
+	    margin: 12% 24%;
+	}
+	#search-box{
+		width: 100%;
+	    background-color: #F3F3F3;
+	    margin-top: 1%;
+	}
+	#search-box h1{
+		width: 100%;
+	    font-weight: bold;
+	    font-size: 1.5em;
+	}
+	#search-box span{
+		font-size: 1em;
+	    text-align: center;
+	    padding-left: 18%;
+	}
+	#search-box select{
+		width: 100%;
+	    height: 37px;
+	    padding: 0;
+	    position: relative;
+	    left: 1%;
+	}
+	#search-box button{
+		display: block;
+	    width: 100%;
+	    height: 100%;
+	    font-size: 1.4em;
+	    background-color: #2d96cd;
+	    border-radius: 5px;
+	    color: #ffffff;
+	    position: relative;
+	    left: 4%;
+	}
+	#search-box p{
+		height: 51px;
+	    background: url(../img/icons-new.png) no-repeat -56px -769px;
+	    margin: 5% 0%;
+	    position: relative;
+	    left: -850%;
+	}
+	#newcar-box h1{
+		font-size: 4em;
+	    font-weight: bold;
+	    color: #616161;
+	    margin: 13px auto;
+	    text-align: center;
+	}
+}

@@ -1,0 +1,600 @@
+body,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6.p,
+ul,
+li,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  color: #616161;
+}
+* {
+  box-sizing: border-box;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+a {
+  color: #ffffff;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+.container-fluid,
+.container,
+.row,
+.col-xs-12 {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  border: 1px solid #D7D7D7;
+  max-width: 1438px;
+  margin: 0 auto;
+}
+#main #banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#main #banner div.carousel-box {
+  width: 100%;
+  position: relative;
+  height: 628px;
+  overflow: hidden;
+}
+#main #banner div.carousel-box img {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: -1;
+}
+#main #banner div.carousel-box img.active {
+  z-index: auto;
+}
+#main #banner ul.choice {
+  position: absolute;
+  right: 4%;
+  bottom: 3%;
+}
+#main #banner ul.choice li {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #000000 ;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 3px;
+}
+#main #banner ul.choice li.active {
+  background-color: #e4393c;
+}
+#main #banner div.carousel-click {
+  position: absolute;
+  right: 0%;
+  top: 40%;
+}
+#main #banner div.carousel-click b.next {
+  width: 50px;
+  height: 54px;
+  display: block;
+  background: url(../img/icons-new.png) no-repeat -120px 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#main #banner div.carousel-click b.next:hover {
+  background: url(../img/icons-new.png) no-repeat -179px 0px;
+}
+#main #banner div.carousel-click i.prev {
+  display: block;
+  width: 50px;
+  height: 54px;
+  background: url(../img/icons-new.png) no-repeat -243px 0px;
+  position: absolute;
+  right: 0px;
+  top: 54px;
+}
+#main #banner div.carousel-click i.prev:hover {
+  background: url(../img/icons-new.png) no-repeat -311px 0px;
+}
+#main #banner a {
+  display: block;
+  position: absolute;
+  left: 6%;
+  top: 8%;
+  width: 15%;
+  padding: 1% 5%;
+  background-color: #2D96CD;
+  color: #ffffff;
+  font-weight: bold;
+}
+#main #banner a:hover {
+  background-color: #fff;
+  color: #616161;
+}
+#main #sell-box #sell-price,
+#main #sell-box #car-details {
+  float: left;
+  width: 50%;
+}
+#main #sell-box #car-details {
+  border-left: 1px solid #D7D7D7;
+  padding: 2% 2% 3% 3%;
+}
+#main #sell-box #car-details ul {
+  width: 90%;
+}
+#main #sell-box #car-details ul li {
+  display: inline-block;
+  width: 22%;
+  color: #616161;
+}
+#main #sell-box #car-details h1 {
+  margin-left: 60%;
+  font-size: 2.4em;
+}
+#main #sell-box #car-details span {
+  display: block;
+  margin-left: 40%;
+  color: #616161;
+}
+#main #sell-price {
+  padding: 3.15% 2% 3% 3%;
+}
+#main #sell-price span {
+  color: #616161;
+}
+#main #sell-price h2 {
+  font-size: 2.4em;
+  margin-top: .5%;
+}
+#main #splendid-show div.detail-title {
+  border-top: 1px solid #D7D7D7;
+}
+#main #splendid-show div.detail-title span {
+  font-size: 3.5em;
+  display: inline-block;
+  margin: 2% 43%;
+  color: #616161;
+}
+#main #splendid-show div.details-show {
+  padding: 0;
+  overflow: hidden;
+}
+#main #splendid-show div.details-show img {
+  width: 100%;
+  transition: all .5s linear;
+}
+#main #splendid-show div.details-show div.shade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: rgba(25, 110, 255, 0.4);
+}
+#main #splendid-show div.details-show div.shade a {
+  color: #FFFFFF;
+  position: absolute;
+  left: 45%;
+  top: 48%;
+}
+#main #botanics div.botanics_title {
+  text-align: center;
+  font-size: 3.3em;
+  color: #616161;
+  padding: 0;
+}
+#main #botanics div.botanics_title span {
+  display: inline-block;
+  margin: 3% 0%;
+}
+#main #botanics div.botanics_nav ul {
+  width: 50%;
+  margin: 0 auto;
+}
+#main #botanics div.botanics_nav ul li {
+  display: inline-block;
+  width: 24%;
+  color: #616161;
+  font-size: 1.2em;
+  padding-bottom: 3%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+#main #botanics div.img-box img {
+  width: 100%;
+  display: none;
+}
+#main #botanics div.img-box .active {
+  display: block;
+}
+#main #botanics #color-items {
+  width: 50%;
+  margin-left: 25%;
+  display: none;
+}
+#main #botanics #color-items li {
+  display: inline-block;
+  width: 16%;
+  position: relative;
+}
+#main #botanics #color-items li b {
+  position: absolute;
+  left: 16%;
+  top: 25%;
+  width: 35px;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+#main #botanics #color-items img.active {
+  display: block;
+}
+#main #botanics h1.color-text {
+  display: none;
+}
+#main #capacity {
+  width: 100%;
+}
+#main #capacity div.capacity-title {
+  font-size: 3.2em;
+  text-align: center;
+}
+#main #capacity div.capacity-title span {
+  display: inline-block;
+  margin: 3% 0;
+}
+#main #capacity div.capacity-content {
+  font-size: 1.2em;
+  text-align: center;
+}
+#main #capacity dl {
+  text-align: center;
+  margin: 6% 0;
+}
+#main #capacity dl dt {
+  margin: 2% 0;
+}
+#main #capacity dl dd {
+  border-bottom: 1px solid #D7D7D7;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#main #capacity div.capacity-click {
+  text-align: center;
+}
+#main #capacity div.capacity-click a {
+  display: block;
+  font-size: 1.5em;
+  padding: 1% 2%;
+  background-color: #2D96CD;
+  width: 20%;
+  margin: 4% 0 4% 40%;
+  border: 1px solid transparent;
+}
+#main #capacity div.capacity-click a:hover {
+  background-color: #FFFFFF;
+  color: #616161;
+  border: 1px solid #333;
+}
+#main #capacity div.capacity-click img {
+  width: 100%;
+  margin-bottom: 3%;
+}
+#main #capacity div.capacity-quality h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 4% 10%;
+}
+#main #capacity div.capacity-quality p {
+  font-size: 1.2em;
+  margin: 0 10%;
+}
+#main #capacity div.capacity-quality a {
+  display: block;
+  background-color: #2D96CD;
+  padding: 2% 3%;
+  width: 35%;
+  text-align: center;
+  margin: 6% 10%;
+  font-size: 1.3em ;
+}
+#main #capacity div.capacity-quality a:hover {
+  background-color: #FFFFFF;
+  color: #616161;
+  border: 1px solid #333;
+}
+#main #capacity div.safe-box {
+  margin: 5% 0;
+  color: #ffffff;
+}
+#main #capacity div.safe-box div.safety_control {
+  position: relative;
+}
+#main #capacity div.safe-box div.safety_control img {
+  width: 100%;
+}
+#main #capacity div.safe-box div.safety_control > div {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 3%;
+  text-align: center;
+}
+#main #capacity div.safe-box div.safety_control > div h1 {
+  margin: 2% 0;
+  font-size: 3em;
+}
+#main #capacity div.safe-box div.safety_control > div p {
+  font-size: 1.2em;
+}
+#main #capacity div.safe-box div.safety_control > div a {
+  background-color: #2D96CD;
+  padding: 1% 4%;
+  font-size: 1.2em;
+  margin: 1% 0;
+  display: inline-block;
+}
+#main #capacity div.safe-box div.safety_control > div a:hover {
+  background-color: #FFFFFF;
+  color: #616161;
+}
+#main #motorcycle_type,
+#main #car_view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#main #motorcycle_type div.view-title,
+#main #car_view div.view-title {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000;
+  padding: 4% 0;
+}
+#main #motorcycle_type div.type-title,
+#main #car_view div.type-title {
+  width: 100%;
+  padding: 0% 5% 4% 5%;
+  position: relative;
+}
+#main #motorcycle_type div.type-title span,
+#main #car_view div.type-title span {
+  font-size: 2.6em;
+}
+#main #motorcycle_type div.type-title a,
+#main #car_view div.type-title a {
+  display: inline-block;
+  padding: 1% 6%;
+  border: 1px solid #2D96CD;
+  position: relative;
+  right: -55%;
+  color: #2D96CD;
+  font-size: 1.2em;
+}
+#main #motorcycle_type div.type-title a:hover,
+#main #car_view div.type-title a:hover {
+  border: 1px solid #1B394E;
+  color: #1B394E;
+}
+#main #motorcycle_type div.car_view,
+#main #car_view div.car_view {
+  width: 400%;
+  position: relative;
+  overflow: hidden;
+}
+#main #motorcycle_type div.car_view div.unit_view,
+#main #car_view div.car_view div.unit_view {
+  width: 12.5%;
+  float: left;
+  position: relative;
+}
+#main #motorcycle_type div.car_view div.unit_view img,
+#main #car_view div.car_view div.unit_view img {
+  width: 100%;
+}
+#main #motorcycle_type div.car_view div.unit_view a,
+#main #car_view div.car_view div.unit_view a {
+  position: absolute;
+  left: 41%;
+  top: 31%;
+  width: 107px;
+  height: 108px;
+  background: url(../img/icons-new.png) -800px -210px no-repeat;
+}
+#main #motorcycle_type div.motorcycle_type_box,
+#main #car_view div.motorcycle_type_box {
+  width: 500%;
+  position: relative;
+  overflow: hidden;
+}
+#main #motorcycle_type div.motorcycle_type_box div.unit_type,
+#main #car_view div.motorcycle_type_box div.unit_type {
+  width: 5%;
+  float: left;
+}
+#main #motorcycle_type div.motorcycle_type_box div.unit_type li,
+#main #car_view div.motorcycle_type_box div.unit_type li {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#main #motorcycle_type div.motorcycle_type_box div.unit_type li > b,
+#main #car_view div.motorcycle_type_box div.unit_type li > b {
+  color: #2D96CD;
+  font-size: 1.3em;
+  display: inline-block;
+  margin: 0 8%;
+}
+#main #motorcycle_type div.motorcycle_type_box div.unit_type li img,
+#main #car_view div.motorcycle_type_box div.unit_type li img {
+  width: 60%;
+}
+#main #motorcycle_type ul.type_choice,
+#main #car_view ul.type_choice,
+#main #motorcycle_type ul.view_choice,
+#main #car_view ul.view_choice {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 0 4% 0;
+}
+#main #motorcycle_type ul.type_choice li,
+#main #car_view ul.type_choice li,
+#main #motorcycle_type ul.view_choice li,
+#main #car_view ul.view_choice li {
+  border: 6px solid #2D96CD;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5em;
+}
+#main #motorcycle_type ul.type_choice li.active,
+#main #car_view ul.type_choice li.active,
+#main #motorcycle_type ul.view_choice li.active,
+#main #car_view ul.view_choice li.active {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2D96CD;
+}
+#main #motorcycle_type ul.view_choice,
+#main #car_view ul.view_choice {
+  background-color: #000000;
+}
+#main #motorcycle_type div.type_click,
+#main #car_view div.type_click,
+#main #motorcycle_type div.view_click,
+#main #car_view div.view_click {
+  position: absolute;
+  right: 0px;
+  top: 15%;
+}
+#main #motorcycle_type div.type_click a,
+#main #car_view div.type_click a,
+#main #motorcycle_type div.view_click a,
+#main #car_view div.view_click a {
+  display: block;
+  width: 50px;
+  height: 54px;
+  position: absolute;
+  right: 0px;
+}
+#main #motorcycle_type div.type_click a.next,
+#main #car_view div.type_click a.next,
+#main #motorcycle_type div.view_click a.next,
+#main #car_view div.view_click a.next {
+  background: url(../img/icons-new.png) no-repeat -120px 0px;
+  top: 0px;
+}
+#main #motorcycle_type div.type_click a.next:hover,
+#main #car_view div.type_click a.next:hover,
+#main #motorcycle_type div.view_click a.next:hover,
+#main #car_view div.view_click a.next:hover {
+  background: url(../img/icons-new.png) no-repeat -179px 0px;
+}
+#main #motorcycle_type div.type_click a.prev,
+#main #car_view div.type_click a.prev,
+#main #motorcycle_type div.view_click a.prev,
+#main #car_view div.view_click a.prev {
+  background: url(../img/icons-new.png) no-repeat -243px 0px;
+  top: 54px;
+}
+#main #motorcycle_type div.type_click a.prev:hover,
+#main #car_view div.type_click a.prev:hover,
+#main #motorcycle_type div.view_click a.prev:hover,
+#main #car_view div.view_click a.prev:hover {
+  background: url(../img/icons-new.png) no-repeat -311px 0px;
+}
+#main #customization {
+  width: 100%;
+  position: relative;
+}
+#main #customization > div {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+#main #customization > div h1 {
+  color: #ffffff;
+  font-size: 3.3em;
+}
+#main #customization > div a {
+  display: block;
+  background: #2D96CD;
+  padding: .8% 4%;
+  margin: 2% 0 2% 40%;
+  width: 17%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#main #customization > div a:hover {
+  background-color: #ffffff;
+}
+#main #other_car {
+  padding-bottom: 5%;
+}
+#main #other_car div.other-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  padding: 4%;
+}
+#main #other_car ul.other-content {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2em;
+}
+#main #other_car ul.other-content img {
+  width: 100%;
+}
+#main #other_car ul.other-content li.other_type {
+  color: #2596CF;
+  font-weight: bold;
+  margin: 3% 0;
+}
+#main #banking_buy_car {
+  width: 100%;
+  background-color: #1B394E;
+  color: #ffffff;
+}
+#main #banking_buy_car div.service_introduction {
+  width: 100%;
+  text-align: center;
+  padding: 3% 2%;
+}
+#main #banking_buy_car div.service_introduction h1 {
+  margin: 2% 0;
+  font-size: 3em;
+}
+#main #car_view div.view_click {
+  position: absolute;
+  right: 0px;
+  top: 15%;
+}

@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+body,
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+div.container-fluid {
+  padding: 0;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section {
+  max-width: 1438px;
+  margin: 0 auto;
+}
+#carousel-box {
+  width: 100%;
+  padding: 0;
+  transition: all 1.5s linear;
+}
+#carousel-box #myCarousel {
+  overflow: hidden;
+}
+#carousel-box img {
+  width: 100%;
+}
+#carousel-box div.a-box {
+  width: 40px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  bottom: 40%;
+}
+#carousel-box div.a-box a:first-child {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  background-color: #2D96CD;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+}
+#carousel-box div.a-box a:first-child:hover,
+#carousel-box div.a-box a:last-child:hover {
+  background-color: #FFFFFF;
+}
+#carousel-box div.a-box a:first-child:hover span,
+#carousel-box div.a-box a:last-child:hover span {
+  color: #2D96CD;
+}
+#carousel-box div.a-box a:last-child {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background-color: #51473B;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+}
+#main-1 {
+  position: relative;
+  overflow: hidden;
+}
+#pandect-box {
+  padding-top: 5%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  z-index: 100;
+  width: 100%;
+}
+#pandect-box b {
+  font-size: 3.6em;
+}
+#pandect-box span {
+  display: inline-block;
+  padding-left: 15%;
+  margin: 5% auto;
+  color: #6A6A6A;
+  font-size: 1.5em;
+}
+#pandect-box a {
+  color: #FFFFFF;
+  background-color: #2D96CD;
+  padding: 2.5% 18%;
+  font-size: 1.5em;
+  margin-left: 20%;
+}
+#pandect-box a:hover {
+  color: #2D96CD;
+  background-color: #FFFFFF;
+}
+#pandect-box #pandect {
+  width: 100%;
+  height: 350px;
+}
+#preference-box1 {
+  position: relative;
+  left: 0%;
+  bottom: 0%;
+  padding: 0;
+}
+#preference-box1 div:first-child {
+  position: absolute;
+  left: 38%;
+  top: 33%;
+}
+#preference-box1 div:first-child h1 {
+  color: #FFFFFF;
+  font-size: 3em;
+  font-weight: bold;
+}
+#preference-box1 div:first-child i {
+  display: block;
+  width: 51px;
+  height: 51px;
+  background: url(../img/icons-new.png) no-repeat -612px 0px;
+  margin: 5% 44%;
+}
+#preference-box1 div:first-child i:hover {
+  background: url(../img/icons-new.png) no-repeat -672px 0px;
+}
+#preference-box1 div:first-child span {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 32%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#preference-box2 {
+  width: 100%;
+  height: 590px;
+  padding: 0;
+  position: absolute;
+  bottom: 3%;
+  right: -100%;
+}
+#preference-box2 p {
+  margin: 2% auto;
+  text-align: center;
+  font-size: 1.6em;
+}
+#preference-box2 span {
+  display: block;
+  width: 51px;
+  height: 51px;
+  background: url(../img/icons-new.png) no-repeat -740px 0px;
+  position: absolute;
+  bottom: 40%;
+  left: 3%;
+}
+#preference-box2 span:hover {
+  background: url(../img/icons-new.png) no-repeat -800px 0px;
+}
+#myCarousel1 {
+  width: 60%;
+  margin: 0 20% 3% 20%;
+  position: relative;
+}
+#myCarousel1 .a-box1 {
+  position: absolute;
+  right: -29%;
+  top: 130px;
+}
+#myCarousel1 .a-box1 a {
+  display: block;
+  width: 50px;
+  height: 54px;
+}
+#myCarousel1 .a-box1 .a1 {
+  background: url(../img/icons-new.png) no-repeat -120px 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#myCarousel1 .a-box1 .a1:hover {
+  background: url(../img/icons-new.png) no-repeat -179px 0px;
+}
+#myCarousel1 .a-box1 .a2 {
+  background: url(../img/icons-new.png) no-repeat -243px 0px;
+  position: absolute;
+  right: 0px;
+  top: 54px;
+}
+#myCarousel1 .a-box1 .a2:hover {
+  background: url(../img/icons-new.png) no-repeat -311px 0px;
+}
+#myCarousel1 ul {
+  position: absolute;
+  bottom: -9%;
+  left: 45%;
+}
+#myCarousel1 ul li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2D96CD;
+  margin: 0 4px;
+}
+#myCarousel1 ul .li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin: 0 4px;
+  border: 1px solid #2D96CD;
+}
+#search-box {
+  width: 100%;
+  background-color: #F3F3F3;
+}
+#search-box div.row {
+  margin: 2% 0;
+  width: 100%;
+}
+#search-box p {
+  width: 51px;
+  height: 51px;
+  background: url(../img/icons-new.png) no-repeat -56px -769px;
+  margin: 5% 0%;
+  position: relative;
+  left: -31%;
+}
+#search-box h1 {
+  width: 100%;
+  font-weight: bold;
+  text-align: right;
+}
+#search-box span {
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+  padding-left: 10%;
+}
+#search-box select {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  position: relative;
+  left: 10%;
+}
+#search-box button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+  background-color: #2D96CD;
+  border-radius: 5px;
+  color: #FFFFFF;
+  position: relative;
+  left: 11%;
+}
+#search-box button:hover {
+  background-color: #007095;
+}
+#newcar-box {
+  width: 100%;
+}
+#newcar-box h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #616161;
+  margin: 120px auto;
+  text-align: center;
+}
+#newcar-box .col-md-6,
+#newcar-box .col-md-9,
+#newcar-box .col-md-3 {
+  padding: 0;
+}
+#newcar-box div.row {
+  margin: 0;
+}
+#newcar-box div.row > div {
+  position: relative;
+  z-index: 5;
+}
+#newcar-box div.index-car-details {
+  overflow: hidden;
+}
+#newcar-box img {
+  width: 100%;
+  transition: all .5s linear;
+}
+#newcar-box #newcar-content {
+  transition: all .5s linear;
+  position: absolute;
+  bottom: 0%;
+  z-index: 10;
+  background-color: rgba(10, 10, 10, 0.4);
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+}
+#newcar-box #newcar-content h3 {
+  position: absolute;
+  bottom: 35%;
+  margin-left: 2%;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  z-index: 20;
+}
+#newcar-box #newcar-content span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+  background: url(../img/icons-new.png) no-repeat -717px -489px;
+  position: absolute;
+  right: 2%;
+  top: 32%;
+}
+#newcar-box #ford-red {
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+#newcar-box #ford-red h2 {
+  position: absolute;
+  bottom: 50%;
+  left: 33%;
+  font-size: 3.6em;
+  color: #FFFFFF;
+}
+#newcar-box #ford-red button {
+  position: absolute;
+  bottom: 42%;
+  left: 41%;
+  color: #FFFFFF;
+  background-color: #2D96CD;
+  font-size: 1.5em;
+  padding: .3% 2.5%;
+  border: none;
+}
+#newcar-box #ford-red button:hover {
+  color: #2D96CD;
+  background-color: #FFFFFF;
+}

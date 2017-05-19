@@ -1,0 +1,358 @@
+@color:#2D96CD;
+@font-color:#FFFFFF;
+@background:url(../img/icons-new.png);
+*{
+    box-sizing: border-box;
+}
+body,p,ul,ol,h1,h2,h3,h4,h5,h6,dl,dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+div.container-fluid{
+    padding: 0;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section{
+    max-width: 1438px;
+    margin:0 auto;
+}
+#carousel-box{
+    width: 100%;
+     padding: 0;
+     transition: all 1.5s linear;
+    #myCarousel{
+        overflow: hidden;
+    }
+    img{
+        width: 100%;
+    }
+    //轮播图左右选择键设置
+        div.a-box{
+            width:40px;
+            height: 80px;
+            position: absolute;
+            right: 0px;
+            bottom: 40%;
+            a:first-child{
+                display: inline-block;
+                position: absolute;
+                left: 0px;
+                top: 40px;
+                background-color:@color;
+                width:40px;
+                height: 40px;
+                z-index: 100;
+            }
+            a:first-child:hover,a:last-child:hover{
+                background-color: #FFFFFF;
+                span{
+                    color: @color;
+                }
+            }
+            a:last-child{
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+                background-color: #51473B;
+                width:40px;
+                height: 40px;
+                z-index: 100;
+            }
+        } 
+   
+}
+#main-1{
+    position: relative;
+    overflow: hidden;
+}
+#pandect-box{
+    padding-top: 5%;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: 100;
+    width: 100%;
+    b{
+        font-size: 3.6em;
+    }
+    span{
+        display: inline-block;
+        padding-left: 15%;
+        margin:5% auto;
+        color: #6A6A6A;
+        font-size: 1.5em;
+    }
+    a{
+        color: @font-color;
+        background-color: @color;
+        padding:2.5% 18%;
+        font-size: 1.5em;
+        margin-left: 20%;
+    
+    }
+    a:hover{
+        color:@color;
+        background-color: #FFFFFF;
+    }
+    #pandect{
+        width: 100%;
+        height:350px;
+    }
+}
+#preference-box1{
+    position: relative;
+    left:0%;
+    bottom: 0%;
+    padding: 0;
+    div:first-child{
+        position: absolute;
+        left: 38%;
+        top: 33%;
+        h1{
+            color: @font-color;
+            font-size: 3em;
+            font-weight: bold;
+        };
+        i{
+        display: block;
+        width: 51px;
+        height: 51px;
+        background:@background no-repeat -612px 0px;
+        margin:5% 44%;
+        }
+        i:hover{
+            background: @background no-repeat -672px 0px;
+        }
+        span{
+            color:@font-color ;
+            display: inline-block;
+            margin-left: 32%;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    } 
+}
+//区域促销详情页
+#preference-box2{
+    width: 100%;
+    height: 590px;
+//  overflow: hidden;
+    padding: 0;
+    position: absolute;
+    bottom: 3%;
+    right:-100%;
+    p{
+        margin: 2% auto;
+        text-align: center;
+        font-size: 1.6em;
+    }
+    span{
+        display: block;
+        width: 51px;
+        height: 51px;
+        background: @background no-repeat -740px 0px;
+        position: absolute;
+        bottom: 40%;
+        left:3%;
+    }
+    span:hover{
+        background: @background no-repeat -800px 0px;
+    }
+}
+#myCarousel1{
+    width:60%;
+    margin:0 20% 3% 20%;
+    position: relative;
+    .a-box1{
+        position: absolute;
+        right: -29%;
+        top: 130px;
+        a{
+           display: block;
+           width: 50px; 
+           height:54px;
+       
+        }
+        .a1{
+           background: @background no-repeat -120px 0px; 
+           position: absolute;
+           right:0px;
+           top:0px;
+        }
+        .a1:hover{
+            background: @background no-repeat -179px 0px;
+        }
+        .a2{
+            background: @background no-repeat -243px 0px;
+            position: absolute;
+            right:0px;
+            top:54px;
+        }
+        .a2:hover{
+            background: @background no-repeat -311px 0px;
+        }
+    }
+    ul{
+        position: absolute;
+        bottom: -9%;
+        left: 45%;
+        li{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: @color;
+            margin: 0 4px;
+        }
+        .li{
+            width:14px;
+            height:14px;
+            border-radius: 50%;
+            background-color:#FFFFFF;
+            margin:0 4px;
+            border: 1px solid @color;
+        }
+    }
+}
+//搜寻经销商模块
+#search-box{
+    width:100%;
+    background-color: #F3F3F3;
+    div.row{
+        margin:2% 0;
+        width: 100%;
+    }
+    p{
+        width: 51px;
+        height: 51px;
+        background: @background no-repeat -56px -769px;
+        margin: 5% 0%;
+        position:relative;
+        left: -31%;
+    }
+    h1{
+        width: 100%;
+        font-weight: bold;
+        text-align: right;
+    }
+    span{
+        display: block;
+        font-size: 1.4em;
+        text-align: center;
+        padding-left: 10%;
+    }
+    select{
+        width: 100%;
+        height:40px;
+        padding:0;
+        position: relative;
+        left: 10%;
+    }
+    button{
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 2em;
+        background-color: @color;
+        border-radius: 5px;
+        color: @font-color;
+        position: relative;
+        left: 11%;
+    }
+    button:hover{
+        background-color: #007095;
+    }
+}
+//福特最新精彩呈现
+#newcar-box{
+     width: 100%;
+     h1{
+        font-size: 4em;
+        font-weight: bold;
+        color: #616161;
+        margin:120px auto;
+        text-align: center;
+    }; 
+    .col-md-6,.col-md-9,.col-md-3{
+        padding: 0;
+    };
+    div.row{
+        margin: 0;
+        >div{
+            position: relative;
+            z-index: 5;
+        }
+    }
+    div.index-car-details{
+        overflow: hidden;
+    }
+    img{
+        width:100%;
+        transition: all .5s linear;
+    }
+    #newcar-content{
+        transition: all .5s linear;
+        position:absolute;
+        bottom: 0%;
+        z-index: 10;
+        background-color: rgba(10,10,10,.4);
+        width: 100%;
+        height:20%;
+        box-sizing: border-box;
+        h3{
+            position: absolute;
+            bottom:35%;
+            margin-left: 2%;
+             color: #FFFFFF;
+            font-size: 1.4em;
+            z-index: 20;
+        };
+        span{
+            display: inline-block;
+            width: 30px;
+            height:30px;
+            border:1px solid #FFFFFF;
+            border-radius: 50%;
+            transform: rotate(-90deg);
+            background: @background no-repeat -717px -489px;
+            position: absolute;
+            right: 2%;
+            top: 32%;
+        }
+    }
+   #ford-red{
+       width: 100%;
+       padding: 0;
+       position: relative;
+       h2{
+           position:absolute;
+           bottom: 50%;
+           left: 33%;
+           font-size: 3.6em;
+           color: @font-color;
+       }
+       button{
+           position: absolute;
+           bottom: 42%;
+           left: 41%;
+           color: @font-color;
+           background-color:@color;
+           font-size: 1.5em;
+           padding: .3% 2.5%;
+           border: none;
+       }
+       button:hover{
+           color: @color;
+           background-color: @font-color;
+       }
+   }
+}

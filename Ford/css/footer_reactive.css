@@ -1,0 +1,15 @@
+@media screen and (min-width: 1px) and (max-width: 768px) {
+	#footer div.footer-content h3{
+		padding: 3% 3%;
+		border-bottom: 1px solid #3B3B3B;
+	}
+	#footer div.footer-content > div{
+		text-align: left;
+    }
+	#footer div.footer-content ul{
+		margin: 1% 0;
+	}
+	#footer div.footer-content ul li{
+		padding-left: 3%;
+	}
+}
